@@ -121,7 +121,7 @@
 #ifndef _LIQUIDCRYSTAL_SR2W_
 #define _LIQUIDCRYSTAL_SR2W_
 
-#include <inttypes.h>
+#include "inttypes.h"
 #include "LCD.h"
 #include "FastIO.h"
 

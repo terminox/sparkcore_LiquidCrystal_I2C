@@ -27,7 +27,7 @@
 #ifndef LiquidCrystal_4bit_h
 #define LiquidCrystal_4bit_h
 
-#include <inttypes.h>
+#include "inttypes.h"
 
 #include "LCD.h"
 #include "FastIO.h"

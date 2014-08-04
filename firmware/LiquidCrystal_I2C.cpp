@@ -28,11 +28,11 @@
 // @author F. Malpartida - fmalpartida@gmail.com
 // ---------------------------------------------------------------------------
 #if (ARDUINO <  100)
-#include <WProgram.h>
+#include "WProgram.h"
 #else
-#include <Arduino.h>
+#include "Arduino.h"
 #endif
-#include <inttypes.h>
+#include "inttypes.h"
 #include "I2CIO.h"
 #include "LiquidCrystal_I2C.h"
 

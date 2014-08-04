@@ -58,7 +58,7 @@
 #ifndef _LIQUIDCRYSTAL_SR3W_H_
 #define _LIQUIDCRYSTAL_SR3W_H_
 
-#include <inttypes.h>
+#include "inttypes.h"
 #include "LCD.h"
 #include "FastIO.h"
 

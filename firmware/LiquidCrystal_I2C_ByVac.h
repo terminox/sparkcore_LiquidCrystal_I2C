@@ -27,10 +27,10 @@
 // ---------------------------------------------------------------------------
 #ifndef LiquidCrystal_I2C_ByVac_h
 #define LiquidCrystal_I2C_ByVac_h
-#include <inttypes.h>
-#include <Print.h>
+#include "inttypes.h"
+#include "Print.h"
 
-#include <../Wire/Wire.h>
+#include "../Wire/Wire.h"
 #include "LCD.h"
 
 

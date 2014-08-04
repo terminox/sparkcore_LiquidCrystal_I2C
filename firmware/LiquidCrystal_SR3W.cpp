@@ -65,14 +65,14 @@
 // @author F. Malpartida - fmalpartida@gmail.com
 // ---------------------------------------------------------------------------
 // flags for backlight control
-#include <stdio.h>
-#include <string.h>
-#include <inttypes.h>
+#include "stdio.h"
+#include "string.h"
+#include "inttypes.h"
 
 #if (ARDUINO <  100)
-#include <WProgram.h>
+#include "WProgram.h"
 #else
-#include <Arduino.h>
+#include "Arduino.h"
 #endif
 #include "LiquidCrystal_SR3W.h"
 

@@ -80,7 +80,7 @@
 #ifndef _LIQUIDCRYSTAL_SR_
 #define _LIQUIDCRYSTAL_SR_
 
-#include <inttypes.h>
+#include "inttypes.h"
 #include "LCD.h"
 #include "FastIO.h"
 

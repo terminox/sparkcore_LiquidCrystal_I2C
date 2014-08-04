@@ -26,14 +26,14 @@
 //
 // @author F. Malpartida - fmalpartida@gmail.com
 // ---------------------------------------------------------------------------
-#include <stdio.h>
-#include <string.h>
-#include <inttypes.h>
+#include "stdio.h"
+#include "string.h"
+#include "inttypes.h"
 
 #if (ARDUINO <  100)
-#include <WProgram.h>
+#include "WProgram.h"
 #else
-#include <Arduino.h>
+#include "Arduino.h"
 #endif
 #include "LiquidCrystal.h"
 

@@ -32,14 +32,14 @@
 // 2012.03.29 bperrybap - changed comparision to use LCD_5x8DOTS rather than 0
 // @author F. Malpartida - fmalpartida@gmail.com
 // ---------------------------------------------------------------------------
-#include <stdio.h>
-#include <string.h>
-#include <inttypes.h>
+#include "stdio.h"
+#include "string.h"
+#include "inttypes.h"
 
 #if (ARDUINO <  100)
-#include <WProgram.h>
+#include "WProgram.h"
 #else
-#include <Arduino.h>
+#include "Arduino.h"
 #endif
 
 #include "LCD.h"

@@ -25,14 +25,14 @@
 // @author F. Malpartida - fmalpartida@gmail.com
 // ---------------------------------------------------------------------------
 #if (ARDUINO <  100)
-#include <WProgram.h>
+#include "WProgram.h"
 #else
-#include <Arduino.h>
+#include "Arduino.h"
 #endif
 
-#include <inttypes.h>
+#include "inttypes.h"
 
-#include <../Wire/Wire.h>
+#include "../Wire/Wire.h"
 #include "I2CIO.h"
 
 // CLASS VARIABLES

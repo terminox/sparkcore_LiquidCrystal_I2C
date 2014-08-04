@@ -30,13 +30,13 @@
 #define _FAST_IO_H_
 
 #if (ARDUINO <  100)
-#include <WProgram.h>
+#include "WProgram.h"
 #else
-#include <Arduino.h>
+#include "Arduino.h"
 #endif
 
-#include <pins_arduino.h> // pleasing sanguino core
-#include <inttypes.h>
+#include "pins_arduino.h" // pleasing sanguino core
+#include "inttypes.h"
 
 
 #define SKIP 0x23
