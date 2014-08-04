@@ -1,0 +1,8 @@
+{
+  "name": "LiquidCrystal_I2C",
+  "author": "Francisco Malpartida",
+  "license": "MIT license",
+  "version": "1.0.0",
+  "description": "LiquidCrystal_I2C on Spark Core",
+  "namespace": "LiquidCrystal_I2C"
+}
